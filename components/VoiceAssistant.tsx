@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Button } from './ui/button';
 import { Card, CardContent } from './ui/card';
 import { Mic, MicOff, Volume2, VolumeX, Bot, User } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+// import { motion, AnimatePresence } from 'motion/react';
+import {motion, AnimatePresence} from 'framer-motion';
 
 interface VoiceAssistantProps {
   selectedLanguage: string;

@@ -13,7 +13,8 @@ import {
   Wheat,
   Sprout
 } from "lucide-react";
-import { motion } from 'motion/react';
+// import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 
 interface DashboardProps {
   user: { name: string; phone: string };

@@ -25,7 +25,7 @@ import {
   Shield
 } from "lucide-react";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar } from 'recharts';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 
 interface WeatherPredictionProps {
   selectedLanguage: string;
